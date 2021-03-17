@@ -88,7 +88,7 @@ public class TV {
 	}
 	
 	public void canalUp() {
-		if(this.getEstado() == true && this.getCanal() >= 1 && this.getCanal() <= 120) {
+		if(this.getEstado() == true && this.getCanal() >= 1 && this.getCanal() < 120) {
 			this.canal ++;
 		}
 	}
@@ -100,7 +100,7 @@ public class TV {
 	}
 	
 	public void volumenUp() {
-		if(this.getEstado() == true && this.getVolumen() >= 0 && this.getVolumen() <= 7) {
+		if(this.getEstado() == true && this.getVolumen() >= 0 && this.getVolumen() < 7) {
 			this.volumen ++;
 		}
 	}
