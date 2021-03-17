@@ -46,7 +46,8 @@ public class TV {
 	}
 	
 	public void setVolumen(int x) {
-		this.volumen = x;
+		if(x>=0 && x<= 7) {
+		this.volumen = x;}
 	}
 	
 	public int getPrecio() {
@@ -62,7 +63,8 @@ public class TV {
 	}
 	
 	public void setCanal(int x) {
-		this.canal = x;
+		if(x > 0 && x<=120) {
+		this.canal = x;}
 	}
 	
 	public static int getNumTV() {
