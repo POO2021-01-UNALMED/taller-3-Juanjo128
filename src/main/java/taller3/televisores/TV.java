@@ -63,11 +63,11 @@ public class TV {
 	}
 	
 	public int getNumTV() {
-		return numTV;
+		return TV.numTV;
 	}
 	
 	public void setNumTV(int x) {
-		numTV = x;
+		TV.numTV = x;
 	}
 	
 	public void turnOn() {
