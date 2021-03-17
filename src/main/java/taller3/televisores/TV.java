@@ -62,11 +62,11 @@ public class TV {
 		this.canal = x;
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
 		return TV.numTV;
 	}
 	
-	public void setNumTV(int x) {
+	public static void setNumTV(int x) {
 		TV.numTV = x;
 	}
 	
