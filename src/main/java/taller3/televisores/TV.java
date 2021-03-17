@@ -6,7 +6,7 @@ public class TV {
 	private int precio;
 	private boolean estado;
 	private int volumen;
-	private Control control;
+	public Control control;
 	private static int numTV;
 	
 	TV(){
@@ -62,8 +62,12 @@ public class TV {
 		this.canal = x;
 	}
 	
-	public int getnumTV() {
+	public int getNumTV() {
 		return numTV;
+	}
+	
+	public void setNumTV(int x) {
+		numTV = x;
 	}
 	
 	public void turnOn() {
