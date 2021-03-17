@@ -2,7 +2,15 @@ package taller3.televisores;
 
 public class Control {
 public TV tv;
-	
+
+    public void setTv(TV tv) {
+    	this.tv = tv;
+    }
+    
+    public TV getTv() {
+        return tv;
+    }
+    
 	
 	public void turnOn() {
 		tv.turnOn();
