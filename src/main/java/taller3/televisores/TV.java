@@ -19,6 +19,9 @@ public class TV {
 	public TV(Marca x, boolean y) {
 		this.marca = x;
 		this.estado = y;
+		canal = 1;
+		volumen = 1;
+		precio = 500;
 		numTV++;
 	}
 	
